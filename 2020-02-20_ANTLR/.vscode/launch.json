@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "In class demo",
+            "type": "antlr-debug",
+            "request": "launch",
+            "input": "input.txt",
+            "grammar": "Terrible.g4",
+            "startRule": "variable_assignment",
+            "printParseTree": true,
+            "visualParseTree": true
+        }
+    ]
+}

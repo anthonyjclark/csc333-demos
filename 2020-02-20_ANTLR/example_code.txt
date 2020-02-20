@@ -1,0 +1,72 @@
+// Declaring, initializing, and assigning variables
+int x;
+int x = 4;
+x = 3;
+
+let x: i32;
+let mut x = 4;
+x = 3;
+
+x = 4;
+x = 4;
+
+some_variable = 4
+# a bunch of code
+some_varible = 3
+
+// In our language
+with x: type = expression
+x = expression
+*** set :> type x = expression |
+var x expression
+
+// Formatting output
+cout << "X = " << x << endl;
+print(f"X = {x}")
+*** print("X =", x)
+println!("X = {}", x);
+echo "X = ""${x}"
+println "X = ${x}"
+output < "X = _", (x) > |
+print("X = " + x)
+
+// loops
+*** for new_var in collection {
+    statements
+}
+
+for new_var : collection {
+    statements
+}
+
+new_var : collection {
+
+}
+
+for < expression > [
+
+]
+
+for v in c
+
+end
+
+
+label
+    statements
+expression label
+
+// if statements
+if expression {
+    statements
+}
+
+// functions
+fun name < parameters > [
+
+]
+
+FUN 
+
+let name = function(parameters) {}
+
